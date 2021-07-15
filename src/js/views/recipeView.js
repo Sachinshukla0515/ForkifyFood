@@ -9,7 +9,6 @@ class RecipeView extends View {
 
   adHandlerRender(handler) {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
-    console.log(handler);
   }
 
   addHandlerUpdateServings(handler) {
